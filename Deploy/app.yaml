@@ -11,11 +11,17 @@ handlers:
 - url: /font
   static_dir: static/font
 
-- url: /img
-  static_dir: static/img
+- url: /fonts
+  static_dir: static/fonts
+
+- url: /media
+  static_dir: static/media
 
 - url: /js
   static_dir: static/js
+
+- url: /2
+  static_dir: static/2
 
 - url: /.*
   script: plantilla.app
